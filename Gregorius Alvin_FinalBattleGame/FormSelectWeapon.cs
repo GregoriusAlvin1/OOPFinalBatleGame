@@ -16,5 +16,20 @@ namespace Gregorius_Alvin_FinalBattleGame
         {
             InitializeComponent();
         }
+
+        private void radioButtonRock_CheckedChanged(object sender, EventArgs e)
+        {
+            labelDescription.Text = "It's a heavy giant rock";
+        }
+
+        private void radioButtonKnife_CheckedChanged(object sender, EventArgs e)
+        {
+            labelDescription.Text = "It's a sharp rusty knives";
+        }
+
+        private void radioButtonFireball_CheckedChanged(object sender, EventArgs e)
+        {
+            labelDescription.Text = "It's a hot bluish flame";
+        }
     }
 }

@@ -10,3 +10,15 @@ C:\Users\user\Documents\KULIAH\3. OOP (A)\Tugas Akhir OOP\Gregorius Alvin_FinalB
 C:\Users\user\Documents\KULIAH\3. OOP (A)\Tugas Akhir OOP\Gregorius Alvin_FinalBattleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.pdb
 C:\Users\user\Documents\KULIAH\3. OOP (A)\Tugas Akhir OOP\Gregorius Alvin_FinalBattleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormSelectPlayer.resources
 C:\Users\user\Documents\KULIAH\3. OOP (A)\Tugas Akhir OOP\Gregorius Alvin_FinalBattleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormSelectWeapon.resources
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.exe.config
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.exe
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.pdb
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.AssemblyReference.cache
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormGame.resources
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormSelectPlayer.resources
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormSelectWeapon.resources
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.Properties.Resources.resources
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.GenerateResource.cache
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.CoreCompileInputs.cache
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.exe
+C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.pdb

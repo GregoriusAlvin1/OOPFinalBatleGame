@@ -28,6 +28,7 @@ namespace Gregorius_Alvin_FinalBattleGame
         public int Score { get => score; set => score = value; }
         public Weapon Weapon { get => weapon; set => weapon = value; }
         #endregion
+
         #region Method
 
         #endregion

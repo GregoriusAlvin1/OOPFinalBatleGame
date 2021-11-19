@@ -29,63 +29,65 @@ namespace Gregorius_Alvin_FinalBattleGame
         /// </summary>
         private void InitializeComponent()
         {
-            this.radioButtonPlayer1 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
+            this.radioButtonIncredibleBoy = new System.Windows.Forms.RadioButton();
+            this.radioButtonPerfectaGirl = new System.Windows.Forms.RadioButton();
+            this.labelDescription = new System.Windows.Forms.Label();
             this.buttonPlay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // radioButtonPlayer1
+            // radioButtonIncredibleBoy
             // 
-            this.radioButtonPlayer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.radioButtonPlayer1.BackgroundImage = global::Gregorius_Alvin_FinalBattleGame.Properties.Resources.player_incredibleBoy;
-            this.radioButtonPlayer1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.radioButtonPlayer1.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.radioButtonPlayer1.Font = new System.Drawing.Font("News701 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonPlayer1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButtonPlayer1.Location = new System.Drawing.Point(126, 40);
-            this.radioButtonPlayer1.Name = "radioButtonPlayer1";
-            this.radioButtonPlayer1.Size = new System.Drawing.Size(181, 160);
-            this.radioButtonPlayer1.TabIndex = 0;
-            this.radioButtonPlayer1.TabStop = true;
-            this.radioButtonPlayer1.Text = "Player1";
-            this.radioButtonPlayer1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.radioButtonPlayer1.UseVisualStyleBackColor = false;
+            this.radioButtonIncredibleBoy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.radioButtonIncredibleBoy.BackgroundImage = global::Gregorius_Alvin_FinalBattleGame.Properties.Resources.player_incredibleBoy;
+            this.radioButtonIncredibleBoy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.radioButtonIncredibleBoy.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.radioButtonIncredibleBoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonIncredibleBoy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButtonIncredibleBoy.Location = new System.Drawing.Point(89, 24);
+            this.radioButtonIncredibleBoy.Name = "radioButtonIncredibleBoy";
+            this.radioButtonIncredibleBoy.Size = new System.Drawing.Size(220, 160);
+            this.radioButtonIncredibleBoy.TabIndex = 0;
+            this.radioButtonIncredibleBoy.TabStop = true;
+            this.radioButtonIncredibleBoy.Text = "INCREDIBLE BOY";
+            this.radioButtonIncredibleBoy.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.radioButtonIncredibleBoy.UseVisualStyleBackColor = false;
+            this.radioButtonIncredibleBoy.CheckedChanged += new System.EventHandler(this.radioButtonIncredibleBoy_CheckedChanged);
             // 
-            // radioButton1
+            // radioButtonPerfectaGirl
             // 
-            this.radioButton1.BackColor = System.Drawing.Color.Fuchsia;
-            this.radioButton1.BackgroundImage = global::Gregorius_Alvin_FinalBattleGame.Properties.Resources.player_perfectaGirl;
-            this.radioButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.radioButton1.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.radioButton1.Font = new System.Drawing.Font("News701 BT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButton1.Location = new System.Drawing.Point(434, 40);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(188, 160);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Player1";
-            this.radioButton1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButtonPerfectaGirl.BackColor = System.Drawing.Color.Fuchsia;
+            this.radioButtonPerfectaGirl.BackgroundImage = global::Gregorius_Alvin_FinalBattleGame.Properties.Resources.player_perfectaGirl;
+            this.radioButtonPerfectaGirl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.radioButtonPerfectaGirl.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.radioButtonPerfectaGirl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonPerfectaGirl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButtonPerfectaGirl.Location = new System.Drawing.Point(397, 24);
+            this.radioButtonPerfectaGirl.Name = "radioButtonPerfectaGirl";
+            this.radioButtonPerfectaGirl.Size = new System.Drawing.Size(213, 160);
+            this.radioButtonPerfectaGirl.TabIndex = 1;
+            this.radioButtonPerfectaGirl.TabStop = true;
+            this.radioButtonPerfectaGirl.Text = "PERFECTA GIRL";
+            this.radioButtonPerfectaGirl.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.radioButtonPerfectaGirl.UseVisualStyleBackColor = false;
+            this.radioButtonPerfectaGirl.CheckedChanged += new System.EventHandler(this.radioButtonPerfectaGirl_CheckedChanged);
             // 
-            // label1
+            // labelDescription
             // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(142, 269);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(428, 30);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Description";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelDescription.BackColor = System.Drawing.Color.Transparent;
+            this.labelDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDescription.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelDescription.Location = new System.Drawing.Point(12, 269);
+            this.labelDescription.Name = "labelDescription";
+            this.labelDescription.Size = new System.Drawing.Size(678, 30);
+            this.labelDescription.TabIndex = 2;
+            this.labelDescription.Text = "Description";
+            this.labelDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonPlay
             // 
             this.buttonPlay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonPlay.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPlay.Location = new System.Drawing.Point(220, 315);
+            this.buttonPlay.Location = new System.Drawing.Point(228, 315);
             this.buttonPlay.Name = "buttonPlay";
             this.buttonPlay.Size = new System.Drawing.Size(244, 58);
             this.buttonPlay.TabIndex = 3;
@@ -100,21 +102,21 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(702, 409);
             this.Controls.Add(this.buttonPlay);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.radioButtonPlayer1);
+            this.Controls.Add(this.labelDescription);
+            this.Controls.Add(this.radioButtonPerfectaGirl);
+            this.Controls.Add(this.radioButtonIncredibleBoy);
             this.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormSelectPlayer";
-            this.Text = "FormSelectPlayer";
+            this.Text = "Select Player";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.RadioButton radioButtonPlayer1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton radioButtonIncredibleBoy;
+        private System.Windows.Forms.RadioButton radioButtonPerfectaGirl;
+        private System.Windows.Forms.Label labelDescription;
         private System.Windows.Forms.Button buttonPlay;
     }
 }
