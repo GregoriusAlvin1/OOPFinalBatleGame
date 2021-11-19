@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Gregorius_Alvin_FinalBattleGame.GameActor">
-    <Position X="4" Y="0.5" Width="1.5" />
+    <Position X="3" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAiAAAAIAAAAAAAAAAAAQAAAAEAAAAAAAAAAABAAg=</HashCode>
       <FileName>GameActor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Player">
-    <Position X="2.75" Y="2.75" Width="1.5" />
+    <Position X="3" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAgAIAAIAAAACAAAAAgAAAAAAAAAAAA=</HashCode>
       <FileName>Player.cs</FileName>
@@ -18,37 +18,37 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Enemy">
-    <Position X="5" Y="2.75" Width="1.5" />
+    <Position X="6.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAA=</HashCode>
       <FileName>Enemy.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Time">
-    <Position X="7.5" Y="1.75" Width="1.5" />
+    <Position X="8.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
       <FileName>Time.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Weapon">
-    <Position X="0.5" Y="2.5" Width="1.5" />
+    <Position X="0.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAgAAAAIAgAAAAIAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Monster">
-    <Position X="4.25" Y="4.25" Width="1.5" />
+    <Position X="5.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Monster.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Witch">
-    <Position X="6.5" Y="4.25" Width="1.5" />
+    <Position X="7.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
       <FileName>Witch.cs</FileName>
     </TypeIdentifier>
   </Class>

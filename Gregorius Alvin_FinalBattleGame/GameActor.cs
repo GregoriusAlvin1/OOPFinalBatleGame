@@ -14,6 +14,7 @@ namespace Gregorius_Alvin_FinalBattleGame
         private int health;
         private PictureBox picture;
         #endregion
+
         #region Constructor
         public GameActor(string name, int life, int health, PictureBox picture)
         {
@@ -23,6 +24,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.Picture = picture;
         }
         #endregion
+
         #region Properties
         public string Name { get => name; set => name = value; }
         public int Life 
@@ -51,13 +53,9 @@ namespace Gregorius_Alvin_FinalBattleGame
         }
         public PictureBox Picture { get => picture; set => picture = value; }
         #endregion
+
         #region Method
 
         #endregion
-
-
-
-
-
     }
 }
