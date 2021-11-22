@@ -44,6 +44,7 @@ namespace Gregorius_Alvin_FinalBattleGame
                     life = 0;
             }
         }
+
         public int Health 
         { 
             get => health;
@@ -57,6 +58,7 @@ namespace Gregorius_Alvin_FinalBattleGame
                     health = 0;
             }
         }
+
         public PictureBox Picture { get => picture; set => picture = value; }
         #endregion
 

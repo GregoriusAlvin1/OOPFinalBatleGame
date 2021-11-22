@@ -73,20 +73,20 @@ namespace Gregorius_Alvin_FinalBattleGame
             // startNewGameToolStripMenuItem
             // 
             this.startNewGameToolStripMenuItem.Name = "startNewGameToolStripMenuItem";
-            this.startNewGameToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.startNewGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.startNewGameToolStripMenuItem.Text = "Start New Game";
             this.startNewGameToolStripMenuItem.Click += new System.EventHandler(this.startNewGameToolStripMenuItem_Click);
             // 
             // playPauseToolStripMenuItem
             // 
             this.playPauseToolStripMenuItem.Name = "playPauseToolStripMenuItem";
-            this.playPauseToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.playPauseToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.playPauseToolStripMenuItem.Text = "Play/Pause";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 

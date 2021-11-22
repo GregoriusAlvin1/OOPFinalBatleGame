@@ -43,9 +43,9 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.radioButtonIncredibleBoy.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
             this.radioButtonIncredibleBoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonIncredibleBoy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButtonIncredibleBoy.Location = new System.Drawing.Point(89, 24);
+            this.radioButtonIncredibleBoy.Location = new System.Drawing.Point(116, 39);
             this.radioButtonIncredibleBoy.Name = "radioButtonIncredibleBoy";
-            this.radioButtonIncredibleBoy.Size = new System.Drawing.Size(220, 160);
+            this.radioButtonIncredibleBoy.Size = new System.Drawing.Size(193, 136);
             this.radioButtonIncredibleBoy.TabIndex = 0;
             this.radioButtonIncredibleBoy.TabStop = true;
             this.radioButtonIncredibleBoy.Text = "INCREDIBLE BOY";
@@ -61,9 +61,9 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.radioButtonPerfectaGirl.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
             this.radioButtonPerfectaGirl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonPerfectaGirl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButtonPerfectaGirl.Location = new System.Drawing.Point(397, 24);
+            this.radioButtonPerfectaGirl.Location = new System.Drawing.Point(380, 39);
             this.radioButtonPerfectaGirl.Name = "radioButtonPerfectaGirl";
-            this.radioButtonPerfectaGirl.Size = new System.Drawing.Size(213, 160);
+            this.radioButtonPerfectaGirl.Size = new System.Drawing.Size(192, 136);
             this.radioButtonPerfectaGirl.TabIndex = 1;
             this.radioButtonPerfectaGirl.TabStop = true;
             this.radioButtonPerfectaGirl.Text = "PERFECTA GIRL";
@@ -76,9 +76,9 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.labelDescription.BackColor = System.Drawing.Color.Transparent;
             this.labelDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescription.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelDescription.Location = new System.Drawing.Point(12, 269);
+            this.labelDescription.Location = new System.Drawing.Point(12, 264);
             this.labelDescription.Name = "labelDescription";
-            this.labelDescription.Size = new System.Drawing.Size(678, 30);
+            this.labelDescription.Size = new System.Drawing.Size(672, 30);
             this.labelDescription.TabIndex = 2;
             this.labelDescription.Text = "Description";
             this.labelDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -87,9 +87,9 @@ namespace Gregorius_Alvin_FinalBattleGame
             // 
             this.buttonPlay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonPlay.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPlay.Location = new System.Drawing.Point(228, 315);
+            this.buttonPlay.Location = new System.Drawing.Point(234, 315);
             this.buttonPlay.Name = "buttonPlay";
-            this.buttonPlay.Size = new System.Drawing.Size(244, 58);
+            this.buttonPlay.Size = new System.Drawing.Size(229, 58);
             this.buttonPlay.TabIndex = 3;
             this.buttonPlay.Text = "PLAY";
             this.buttonPlay.UseVisualStyleBackColor = false;
@@ -101,7 +101,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Gregorius_Alvin_FinalBattleGame.Properties.Resources.game_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(702, 409);
+            this.ClientSize = new System.Drawing.Size(696, 409);
             this.Controls.Add(this.buttonPlay);
             this.Controls.Add(this.labelDescription);
             this.Controls.Add(this.radioButtonPerfectaGirl);

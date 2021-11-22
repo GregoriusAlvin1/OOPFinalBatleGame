@@ -14,7 +14,6 @@ namespace Gregorius_Alvin_FinalBattleGame
         private string description;
         private PictureBox picture; //composition
         #endregion
-
         #region Constructor
         public Weapon(string name, string description, Image picture)
         {
@@ -24,13 +23,11 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.Picture.Image = picture;
         }
         #endregion
-
         #region Properties
         public string Name { get => name; set => name = value; }
         public string Description { get => description; set => description = value; }
         public PictureBox Picture { get => picture; set => picture = value; }
         #endregion
-
         #region Method
 
         #endregion

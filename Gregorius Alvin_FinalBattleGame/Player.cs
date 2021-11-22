@@ -41,7 +41,5 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.Weapon = new Weapon(name, description, picture);
         }
         #endregion
-
-
     }
 }

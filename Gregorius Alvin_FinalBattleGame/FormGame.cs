@@ -26,9 +26,9 @@ namespace Gregorius_Alvin_FinalBattleGame
 
         private void startNewGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormSelectPlayer form = new FormSelectPlayer();
-            form.Owner = this;
-            form.ShowDialog();
+            FormSelectPlayer formSelectPlayer = new FormSelectPlayer();
+            formSelectPlayer.Owner = this;
+            formSelectPlayer.ShowDialog();
         }
 
         private void FormGame_Load(object sender, EventArgs e)

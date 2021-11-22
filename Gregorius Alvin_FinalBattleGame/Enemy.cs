@@ -14,7 +14,7 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Constructor
-        public Enemy(string name, int life, int health, Image picture, int x, int y, int speed):base(name,life, health, picture, x, y)
+        public Enemy(string name, int life, int health, Image picture, int x, int y, int speed) : base (name,life, health, picture, x, y)
         {
             this.Speed = speed;
         }

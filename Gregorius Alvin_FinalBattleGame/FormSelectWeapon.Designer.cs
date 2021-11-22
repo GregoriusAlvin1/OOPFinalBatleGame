@@ -44,7 +44,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.radioButtonKnife.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
             this.radioButtonKnife.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonKnife.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButtonKnife.Location = new System.Drawing.Point(301, 43);
+            this.radioButtonKnife.Location = new System.Drawing.Point(299, 38);
             this.radioButtonKnife.Name = "radioButtonKnife";
             this.radioButtonKnife.Size = new System.Drawing.Size(188, 160);
             this.radioButtonKnife.TabIndex = 3;
@@ -56,14 +56,13 @@ namespace Gregorius_Alvin_FinalBattleGame
             // 
             // radioButtonRock
             // 
-            this.radioButtonRock.AccessibleName = "";
             this.radioButtonRock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.radioButtonRock.BackgroundImage = global::Gregorius_Alvin_FinalBattleGame.Properties.Resources.weapon_rock;
             this.radioButtonRock.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.radioButtonRock.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
             this.radioButtonRock.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonRock.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButtonRock.Location = new System.Drawing.Point(66, 43);
+            this.radioButtonRock.Location = new System.Drawing.Point(57, 38);
             this.radioButtonRock.Name = "radioButtonRock";
             this.radioButtonRock.Size = new System.Drawing.Size(181, 160);
             this.radioButtonRock.TabIndex = 2;
@@ -77,7 +76,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             // 
             this.buttonUSE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.buttonUSE.Font = new System.Drawing.Font("Microsoft Tai Le", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonUSE.Location = new System.Drawing.Point(275, 333);
+            this.buttonUSE.Location = new System.Drawing.Point(266, 336);
             this.buttonUSE.Name = "buttonUSE";
             this.buttonUSE.Size = new System.Drawing.Size(244, 58);
             this.buttonUSE.TabIndex = 5;
@@ -89,9 +88,9 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.labelDescription.BackColor = System.Drawing.Color.Transparent;
             this.labelDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDescription.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelDescription.Location = new System.Drawing.Point(12, 288);
+            this.labelDescription.Location = new System.Drawing.Point(12, 291);
             this.labelDescription.Name = "labelDescription";
-            this.labelDescription.Size = new System.Drawing.Size(776, 30);
+            this.labelDescription.Size = new System.Drawing.Size(759, 30);
             this.labelDescription.TabIndex = 4;
             this.labelDescription.Text = "Description";
             this.labelDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -104,7 +103,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.radioButtonFireball.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
             this.radioButtonFireball.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonFireball.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButtonFireball.Location = new System.Drawing.Point(542, 43);
+            this.radioButtonFireball.Location = new System.Drawing.Point(544, 38);
             this.radioButtonFireball.Name = "radioButtonFireball";
             this.radioButtonFireball.Size = new System.Drawing.Size(188, 160);
             this.radioButtonFireball.TabIndex = 6;
@@ -120,7 +119,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Gregorius_Alvin_FinalBattleGame.Properties.Resources.game_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(791, 450);
             this.Controls.Add(this.radioButtonFireball);
             this.Controls.Add(this.buttonUSE);
             this.Controls.Add(this.labelDescription);
