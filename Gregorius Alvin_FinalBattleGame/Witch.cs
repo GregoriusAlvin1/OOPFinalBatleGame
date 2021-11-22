@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -13,7 +14,7 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Constructor
-        public Witch(string name, int life, int health, PictureBox picture, int speed, int healthDamage):base(name, life, health, picture, speed)
+        public Witch(string name, int life, int health, Image picture, int x, int y, int speed, int healthDamage) : base(name, life, health, picture, x, y, speed)
         {
             this.HealthDamage = healthDamage;
         }
@@ -24,7 +25,11 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Method
-
+        public override string Display()
+        {
+            string data = base.Display() + "\nHealth Damage : " + this.HealthDamage + " %";
+            return data;
+        }
         #endregion
     }
 }

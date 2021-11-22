@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -11,15 +12,16 @@ namespace Gregorius_Alvin_FinalBattleGame
         #region Data member
         private string name;
         private string description;
-        private PictureBox picture;
+        private PictureBox picture; //composition
         #endregion
 
         #region Constructor
-        public Weapon(string name, string description, PictureBox picture)
+        public Weapon(string name, string description, Image picture)
         {
             this.Name = name;
             this.Description = description;
-            this.Picture = picture;
+            this.Picture = new PictureBox();
+            this.Picture.Image = picture;
         }
         #endregion
 

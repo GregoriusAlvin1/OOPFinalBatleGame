@@ -93,6 +93,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.buttonPlay.TabIndex = 3;
             this.buttonPlay.Text = "PLAY";
             this.buttonPlay.UseVisualStyleBackColor = false;
+            this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
             // 
             // FormSelectPlayer
             // 
@@ -108,6 +109,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.Font = new System.Drawing.Font("Showcard Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormSelectPlayer";
             this.Text = "Select Player";
+            this.Load += new System.EventHandler(this.FormSelectPlayer_Load);
             this.ResumeLayout(false);
 
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -13,7 +14,7 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Constructor
-        public Enemy(string name, int life, int health, PictureBox picture,int speed):base(name,life, health, picture)
+        public Enemy(string name, int life, int health, Image picture, int x, int y, int speed):base(name,life, health, picture, x, y)
         {
             this.Speed = speed;
         }
@@ -24,7 +25,11 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Method
-
+        public override string Display()
+        {
+            string data = base.DisplayGameActor() + "\nSpeed : " + this.Speed;
+            return data;
+        }
         #endregion
     }
 }

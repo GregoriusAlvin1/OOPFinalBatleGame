@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -13,7 +14,7 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Constructor
-        public Monster(string name, int life, int health, PictureBox picture, int speed,string hint):base(name, life, health,picture, speed)
+        public Monster(string name, int life, int health, Image picture, int x, int y, int speed, string hint):base(name, life, health, picture, x, y, speed)
         {
             this.Hint = hint;
         }
@@ -24,7 +25,11 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Method
-
+        public override string Display()
+        {
+            string data = base.Display() + "\nHint : " + this.Hint;
+            return data;
+        }
         #endregion
     }
 }

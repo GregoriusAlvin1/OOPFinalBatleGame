@@ -3,14 +3,14 @@
   <Class Name="Gregorius_Alvin_FinalBattleGame.GameActor">
     <Position X="3" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAiAAAAIAAAAAAAAAAAAQAAAAEAAAAAAAAAAABAAg=</HashCode>
+      <HashCode>AAEAiAQAAIAAAAAAAAAAAQQAAAAEAAAAQAAAAAABAAg=</HashCode>
       <FileName>GameActor.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Player">
     <Position X="3" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAgAIAAIAAAACAAAAAgAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAgAAgAIAAIAQAACAAAAAgAAAAAAAAAACA=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -20,15 +20,8 @@
   <Class Name="Gregorius_Alvin_FinalBattleGame.Enemy">
     <Position X="6.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQABAAAAAQAAAAAAAAAAAAA=</HashCode>
       <FileName>Enemy.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Gregorius_Alvin_FinalBattleGame.Time">
-    <Position X="8.25" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAiAAAAAAA=</HashCode>
-      <FileName>Time.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Weapon">
@@ -41,14 +34,14 @@
   <Class Name="Gregorius_Alvin_FinalBattleGame.Monster">
     <Position X="5.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAQAAIAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Monster.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Gregorius_Alvin_FinalBattleGame.Witch">
     <Position X="7.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEA=</HashCode>
       <FileName>Witch.cs</FileName>
     </TypeIdentifier>
   </Class>

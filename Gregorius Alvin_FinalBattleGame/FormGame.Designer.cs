@@ -29,12 +29,24 @@ namespace Gregorius_Alvin_FinalBattleGame
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.startNewGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.playPauseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelTime = new System.Windows.Forms.Panel();
+            this.labelTime = new System.Windows.Forms.Label();
+            this.panelEnemy = new System.Windows.Forms.Panel();
+            this.labelEnemyInfo = new System.Windows.Forms.Label();
+            this.panelPlayer = new System.Windows.Forms.Panel();
+            this.linkLabelSelectWeapon = new System.Windows.Forms.LinkLabel();
+            this.labelPlayerInfo = new System.Windows.Forms.Label();
+            this.timerGame = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
+            this.panelTime.SuspendLayout();
+            this.panelEnemy.SuspendLayout();
+            this.panelPlayer.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -78,19 +90,107 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
+            // panelTime
+            // 
+            this.panelTime.BackColor = System.Drawing.Color.Black;
+            this.panelTime.Controls.Add(this.labelTime);
+            this.panelTime.Location = new System.Drawing.Point(190, 36);
+            this.panelTime.Name = "panelTime";
+            this.panelTime.Size = new System.Drawing.Size(167, 55);
+            this.panelTime.TabIndex = 6;
+            // 
+            // labelTime
+            // 
+            this.labelTime.AutoSize = true;
+            this.labelTime.BackColor = System.Drawing.Color.Black;
+            this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTime.ForeColor = System.Drawing.Color.White;
+            this.labelTime.Location = new System.Drawing.Point(25, 10);
+            this.labelTime.Name = "labelTime";
+            this.labelTime.Size = new System.Drawing.Size(120, 31);
+            this.labelTime.TabIndex = 0;
+            this.labelTime.Text = "00:00:00";
+            // 
+            // panelEnemy
+            // 
+            this.panelEnemy.BackColor = System.Drawing.Color.Black;
+            this.panelEnemy.Controls.Add(this.labelEnemyInfo);
+            this.panelEnemy.Location = new System.Drawing.Point(363, 36);
+            this.panelEnemy.Name = "panelEnemy";
+            this.panelEnemy.Size = new System.Drawing.Size(167, 85);
+            this.panelEnemy.TabIndex = 5;
+            // 
+            // labelEnemyInfo
+            // 
+            this.labelEnemyInfo.AutoSize = true;
+            this.labelEnemyInfo.BackColor = System.Drawing.Color.Black;
+            this.labelEnemyInfo.ForeColor = System.Drawing.Color.White;
+            this.labelEnemyInfo.Location = new System.Drawing.Point(12, 10);
+            this.labelEnemyInfo.Name = "labelEnemyInfo";
+            this.labelEnemyInfo.Size = new System.Drawing.Size(60, 13);
+            this.labelEnemyInfo.TabIndex = 0;
+            this.labelEnemyInfo.Text = "Enemy Info";
+            // 
+            // panelPlayer
+            // 
+            this.panelPlayer.BackColor = System.Drawing.Color.Black;
+            this.panelPlayer.Controls.Add(this.linkLabelSelectWeapon);
+            this.panelPlayer.Controls.Add(this.labelPlayerInfo);
+            this.panelPlayer.Location = new System.Drawing.Point(12, 36);
+            this.panelPlayer.Name = "panelPlayer";
+            this.panelPlayer.Size = new System.Drawing.Size(167, 85);
+            this.panelPlayer.TabIndex = 4;
+            // 
+            // linkLabelSelectWeapon
+            // 
+            this.linkLabelSelectWeapon.AutoSize = true;
+            this.linkLabelSelectWeapon.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.linkLabelSelectWeapon.Location = new System.Drawing.Point(83, 63);
+            this.linkLabelSelectWeapon.Name = "linkLabelSelectWeapon";
+            this.linkLabelSelectWeapon.Size = new System.Drawing.Size(81, 13);
+            this.linkLabelSelectWeapon.TabIndex = 1;
+            this.linkLabelSelectWeapon.TabStop = true;
+            this.linkLabelSelectWeapon.Text = "Select Weapon";
+            // 
+            // labelPlayerInfo
+            // 
+            this.labelPlayerInfo.AutoSize = true;
+            this.labelPlayerInfo.BackColor = System.Drawing.Color.Black;
+            this.labelPlayerInfo.ForeColor = System.Drawing.Color.White;
+            this.labelPlayerInfo.Location = new System.Drawing.Point(12, 10);
+            this.labelPlayerInfo.Name = "labelPlayerInfo";
+            this.labelPlayerInfo.Size = new System.Drawing.Size(57, 13);
+            this.labelPlayerInfo.TabIndex = 0;
+            this.labelPlayerInfo.Text = "Player Info";
+            // 
+            // timerGame
+            // 
+            this.timerGame.Tick += new System.EventHandler(this.timerGame_Tick);
+            // 
             // FormGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Gregorius_Alvin_FinalBattleGame.Properties.Resources.game_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(542, 385);
+            this.ClientSize = new System.Drawing.Size(542, 401);
+            this.Controls.Add(this.panelTime);
+            this.Controls.Add(this.panelEnemy);
+            this.Controls.Add(this.panelPlayer);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormGame";
             this.Text = "Final Battle";
+            this.Load += new System.EventHandler(this.FormGame_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormGame_KeyDown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panelTime.ResumeLayout(false);
+            this.panelTime.PerformLayout();
+            this.panelEnemy.ResumeLayout(false);
+            this.panelEnemy.PerformLayout();
+            this.panelPlayer.ResumeLayout(false);
+            this.panelPlayer.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,6 +203,14 @@ namespace Gregorius_Alvin_FinalBattleGame
         private System.Windows.Forms.ToolStripMenuItem startNewGameToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem playPauseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.Panel panelTime;
+        private System.Windows.Forms.Label labelTime;
+        private System.Windows.Forms.Panel panelEnemy;
+        private System.Windows.Forms.Label labelEnemyInfo;
+        private System.Windows.Forms.Panel panelPlayer;
+        private System.Windows.Forms.LinkLabel linkLabelSelectWeapon;
+        private System.Windows.Forms.Label labelPlayerInfo;
+        private System.Windows.Forms.Timer timerGame;
     }
 }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -15,11 +16,10 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Constructor
-        public Player(string name, int life, int health, PictureBox picture,string description, int score, Weapon weapon):base(name, life, health, picture)
+        public Player(string name, int life, int health, Image picture, int x, int y, string description, int score):base(name, life, health, picture, x, y)
         {
             this.Description = description;
             this.Score = score;
-            this.Weapon = weapon;
         }
         #endregion
 
@@ -30,7 +30,16 @@ namespace Gregorius_Alvin_FinalBattleGame
         #endregion
 
         #region Method
+        public override string Display()
+        {
+            string data = base.DisplayGameActor() + "\nSCORE : " + this.Score + "\nWEAPON : " + this.Weapon.Name;
+            return data;
+        }
 
+        public void SetWeapon(string name, string description, Image picture)
+        {
+            this.Weapon = new Weapon(name, description, picture);
+        }
         #endregion
 
 
