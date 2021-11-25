@@ -82,6 +82,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.buttonUSE.TabIndex = 5;
             this.buttonUSE.Text = "USE";
             this.buttonUSE.UseVisualStyleBackColor = false;
+            this.buttonUSE.Click += new System.EventHandler(this.buttonUSE_Click);
             // 
             // labelDescription
             // 
@@ -127,6 +128,7 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.Controls.Add(this.radioButtonRock);
             this.Name = "FormSelectWeapon";
             this.Text = "Select Weapon";
+            this.Load += new System.EventHandler(this.FormSelectWeapon_Load);
             this.ResumeLayout(false);
 
         }

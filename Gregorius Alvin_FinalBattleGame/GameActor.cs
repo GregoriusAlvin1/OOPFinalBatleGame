@@ -90,6 +90,11 @@ namespace Gregorius_Alvin_FinalBattleGame
             int newY = this.Picture.Location.Y + distance;
             this.Picture.Location = new Point(x, newY);
         }
+
+        public void Remove()
+        {
+            this.Picture.Dispose();
+        }
         #endregion
     }
 }

@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Gregorius_Alvin_FinalBattleGame
 {
-    public class Enemy : GameActor
+    public abstract class Enemy : GameActor
     {
         #region Data member
         private int speed;

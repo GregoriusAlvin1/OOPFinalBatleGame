@@ -40,6 +40,28 @@ namespace Gregorius_Alvin_FinalBattleGame
         {
             this.Weapon = new Weapon(name, description, picture);
         }
+
+        public void DefeatEnemy(Enemy enemy)
+        {
+            if (enemy is Monster)
+            {
+                enemy.Health -= (int) (0.5 * enemy.Health);
+                this.Score += 100;
+                
+            }
+            else if (enemy is Witch)
+            {
+                //gunakan down casting untuk mengakses data yang hanya ada di child
+                enemy.Health -= ((Witch)enemy).HealthDamage;
+                this.Score += (50 * ((Witch)enemy).HealthDamage);
+            }
+
+            if (enemy.Health == 0)
+            {
+                enemy.Life--;
+                enemy.Health = 100;
+            }
+        }
         #endregion
     }
 }

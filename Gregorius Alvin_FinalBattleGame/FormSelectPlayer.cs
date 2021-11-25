@@ -31,6 +31,7 @@ namespace Gregorius_Alvin_FinalBattleGame
         {
             if (formGame.player != null)
             {
+                formGame.player.Remove(); //hapus pictureBox player
                 formGame.player = null;
             }
             if (radioButtonIncredibleBoy.Checked)
