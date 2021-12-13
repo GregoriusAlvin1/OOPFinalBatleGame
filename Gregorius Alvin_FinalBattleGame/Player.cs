@@ -41,12 +41,19 @@ namespace Gregorius_Alvin_FinalBattleGame
             this.Weapon = new Weapon(name, description, picture);
         }
 
+        //method untuk mengubah score dan health enemy waktu player berhasil menembak enemy
         public void DefeatEnemy(Enemy enemy)
         {
             if (enemy is Monster)
             {
-                enemy.Health -= (int) (0.5 * enemy.Health);
+                int damage = (int)(0.5 * enemy.Health);
+                enemy.Health -= damage;
                 this.Score += 100;
+
+                if (damage == 0)
+                {
+                    enemy.Health = 0;
+                }
                 
             }
             else if (enemy is Witch)
@@ -56,10 +63,28 @@ namespace Gregorius_Alvin_FinalBattleGame
                 this.Score += (50 * ((Witch)enemy).HealthDamage);
             }
 
+            //jika health mencapai 0% maka kurangi life
             if (enemy.Health == 0)
             {
                 enemy.Life--;
                 enemy.Health = 100;
+            }
+
+            if (enemy.Life == 0)
+            {
+                //jika musuh yang berhasil dilahkan adalah witch maka player akan terkena health damage
+                if (enemy is Witch && enemy.Name == "THE BROOM")
+                {
+                    base.Health -= (int)(0.1 * base.Health);
+                }
+                else if (enemy is Witch && enemy.Name == "DANCING WITCH")
+                {
+                    base.Health -= (int)(0.2 * base.Health);
+                }
+                else if (enemy is Witch && enemy.Name == "GREEN WITCH")
+                {
+                    base.Health -= (int)(0.5 * base.Health);
+                }
             }
         }
         #endregion

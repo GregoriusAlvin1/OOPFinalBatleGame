@@ -37,12 +37,12 @@ namespace Gregorius_Alvin_FinalBattleGame
             if (radioButtonIncredibleBoy.Checked)
             {
                 formGame.player = new Player(radioButtonIncredibleBoy.Text, 10, 100, radioButtonIncredibleBoy.BackgroundImage, 12, 300, labelDescription.Text, 0);
-                formGame.player.SetWeapon("Rock", "It's a heavy giant rock", Properties.Resources.weapon_rock);
+                formGame.player.SetWeapon("ROCK", "It's a heavy giant rock", Properties.Resources.weapon_rock);
             }
             else
             {
                 formGame.player = new Player(radioButtonPerfectaGirl.Text, 10, 100, radioButtonPerfectaGirl.BackgroundImage, 12, 300, labelDescription.Text, 0);
-                formGame.player.SetWeapon("Fireball", "It's a hot bluish flame", Properties.Resources.weapon_fireball);
+                formGame.player.SetWeapon("FIREBALL", "It's a hot bluish flame", Properties.Resources.weapon_fireball);
             }
             //Start Game
             formGame.StartNewGame();

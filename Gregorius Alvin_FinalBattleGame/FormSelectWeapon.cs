@@ -18,6 +18,7 @@ namespace Gregorius_Alvin_FinalBattleGame
         }
 
         FormGame formGame;
+
         private void radioButtonRock_CheckedChanged(object sender, EventArgs e)
         {
             labelDescription.Text = "It's a heavy giant rock";

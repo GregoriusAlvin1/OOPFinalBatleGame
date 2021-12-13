@@ -22,3 +22,28 @@ C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGa
 C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.CoreCompileInputs.cache
 C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.exe
 C:\Users\Ellian\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.pdb
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.exe.config
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.exe
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.pdb
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.AssemblyReference.cache
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormGame.resources
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormSelectPlayer.resources
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormSelectWeapon.resources
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.Properties.Resources.resources
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.GenerateResource.cache
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.CoreCompileInputs.cache
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.exe
+C:\Users\HAPPY COM\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.pdb
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.exe.config
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.exe
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\bin\Debug\Gregorius Alvin_FinalBattleGame.pdb
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormGame.resources
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormSelectPlayer.resources
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.FormSelectWeapon.resources
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius_Alvin_FinalBattleGame.Properties.Resources.resources
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.GenerateResource.cache
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.CoreCompileInputs.cache
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.exe
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_FinalBattleGame.pdb
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\HAPPY COM\OneDrive\Documents\GitHub\OOPFinalBatleGame\Gregorius Alvin_FinalBattleGame\obj\Debug\Gregorius Alvin_Elian_FinalBattleGame.csproj.ResolveComReference.cache
